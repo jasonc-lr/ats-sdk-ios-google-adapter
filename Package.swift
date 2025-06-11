@@ -13,10 +13,10 @@ let package = Package(name: "LRAtsMediationAdapter",
                               targets: ["LRAtsMediationAdapterWrapper"]),
                       ],
                       dependencies: [
-                          .package(
-                              url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-                              "10.0.0" ..< "13.0.0"
-                          )
+                        .package(
+                            url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+                            from: "12.0.0"
+                        )
                       ],
                       targets: [
                           .binaryTarget(name: "LRAtsSDK", url: "https://ats-sdk-ios-prod.launch.liveramp.com/2.9.0/LRAtsSDK.zip", checksum: "2f9b3a1e725e97cb83587f2811763cece8fbac02321b6105806bd779740f164d"),
