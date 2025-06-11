@@ -15,7 +15,7 @@ let package = Package(name: "LRAtsMediationAdapter",
                       dependencies: [
                           .package(
                               url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-                              "10.0.0" ..< "12.0.0"
+                              "10.0.0" ..< "13.0.0"
                           )
                       ],
                       targets: [
